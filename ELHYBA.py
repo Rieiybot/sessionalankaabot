@@ -37,8 +37,8 @@ token = Config.TG_BOT_TOKEN #البوت
 
 bot = Client(
   'bot'+token.split(":")[0],
-  19312827, #ايبي ايدي
- '84da7f08e87849853b2fa6728e4192a2', #ايبي هاش
+  13526001, #ايبي ايدي
+ 'dcdcbf9265d374c0e4fcfe87ae744e61', #ايبي هاش
   bot_token=token, in_memory=True
 )
 app = Client(
@@ -423,7 +423,7 @@ async def generator_and_about(app,m):
         await c.connect()
         await rep.delete()
         phone_ask = await m.chat.ask(
-          "⎆ يـرجـى إرسـال رقـم هاتفـك مـع رمـز الدولة مثــال 📱: \n+963995×××××",
+          "⎆ يـرجـى إرسـال رقـم هاتفـك مـع رمـز الدولة مثــال 📱: \n+201234×××××",
           reply_to_message_id=m.id, filters=filters.text
         )
         phone = phone_ask.text
