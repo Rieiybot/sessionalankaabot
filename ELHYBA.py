@@ -409,7 +409,7 @@ async def generator_and_about(app,m):
       text += "🐍 اللـغـة الـبـرمـجـيـة - بـايـثـون "
       text += f"\n🔥 اصـدار بايروجرام {v}"
       text += f"\n🌱 اصـدار تـيـلـيـثـون {v2}"
-      text += f"\n\n👤 مـطـور الـبـوت: @ELHYBA"
+      text += f"\n\n👤 مـطـور الـبـوت: @si_i_i"
       await m.reply(text, quote=True)
 
     if m.text == "بـايـروجـرام":
